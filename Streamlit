@@ -1,0 +1,40 @@
+# Importing necessary libraries
+import streamlit as st  # Streamlit library for building web apps
+import pandas as pd  # Pandas for data manipulation
+from sqlalchemy import create_engine  # SQLAlchemy for database connection
+
+# Connect to the Beavar database
+connection_string = 'postgresql://citus:floox2024!@c-groupe1.duymdlia3bmy3f.postgres.cosmos.azure.com:5432/netfloox?sslmode=require'
+engine = create_engine(connection_string)
+
+# Function to load movie recommendations from the database
+def load_recommendations(movie_name):
+    # SQL query to retrieve recommended movies based on the provided movie name
+    query = f"SELECT recommended_movie FROM recommendations WHERE movie_name = '{movie_name}'"
+    # Execute the query and retrieve data into a DataFrame using pandas read_sql() function
+    return pd.read_sql(query, engine)
+
+# Streamlit app header
+st.title('Movie Recommendation System')
+
+# Input field for the user to enter the name of a movie
+movie_name = st.text_input('Enter the name of a movie:', '')
+
+# Button to fetch recommendations
+if st.button('Get Recommendations'):
+    # Check if the user has entered a movie name
+    if movie_name:
+        # Call the load_recommendations function to fetch recommendations based on the input movie name
+        recommendations = load_recommendations(movie_name)
+        # Check if recommendations are found for the entered movie
+        if not recommendations.empty:
+            # Display the recommended movie
+            st.write('Recommended movies:')
+            for idx, row in recommendations.iterrows():
+                st.write(f"- {row['recommended_movie']}")
+        else:
+            # If no recommendations found, display a message
+            st.write('No recommendations found for the entered movie.')
+    else:
+        # If the user has not entered any movie name, display a message
+        st.write('Please enter a movie name.')
