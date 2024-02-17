@@ -14,5 +14,5 @@ Il contient également les SQL pour la créations des tables et des views.
 Streamlit contient le code pour l'application.
 
 
-cosine_similarity.py nous permet avec l'input d'un film de ressortir 5 films les plus similaires. Il s'appuie sur le CSV cosine_features.csv qui contient l'ensemble des films et des features importantes.
+prep_donne.py nous permet avec l'input d'un film de ressortir 5 films les plus similaires. Il s'appuie sur le CSV cosine_features.csv qui contient l'ensemble des films et des features importantes.
 
