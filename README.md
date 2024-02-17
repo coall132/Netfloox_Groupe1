@@ -9,7 +9,7 @@ https://help.imdb.com/article/contribution/other-submission-guides/country-codes
 
 
 SQL.ipynb permet de créer toutes les clés primaires et de mettre les bons types dans la base de données.
-Il contient également les créationq de tables et des views.
+Il contient également les SQL pour la créations des tables et des views.
 
 Streamlit contient le code pour l'application.
 
