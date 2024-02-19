@@ -8,14 +8,14 @@ et
 https://help.imdb.com/article/contribution/other-submission-guides/country-codes/G99K4LFRMSC37DCN# 
 
 * Codes : 
- * SQL.ipynb permet de créer toutes les clés primaires et de mettre les bons types dans la base de données.
+   * SQL.ipynb permet de créer toutes les clés primaires et de mettre les bons types dans la base de données.
 Il contient également les SQL pour la créations des tables et des views.
 
- * Streamlit contient le code pour l'application.
+   * Streamlit contient le code pour l'application.
 
 prep_donne.py nous permet avec l'input d'un film de ressortir 5 films les plus similaires. Il s'appuie sur le CSV cosine_features.csv qui contient l'ensemble des films et des features importantes.
 
- * On utilise le fichier algo-reco.py pour la recommandation d'un film.
+   * On utilise le fichier algo-reco.py pour la recommandation d'un film.
 
 * La Base de Donnée Relationnelle, réalisée sous DBeaver et hébergée sur Azure. 
 
