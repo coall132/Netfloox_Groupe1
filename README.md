@@ -1,4 +1,4 @@
-# Projet Netfloox
+# Projet Netfloox  Laurence, Kaëlig & Saeed
 
 
 * **Trello** : 
