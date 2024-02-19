@@ -12,7 +12,7 @@ https://trello.com/b/c96tOI4O/buzzing-flash-netfloox
    * SQL.ipynb permet de créer toutes les clés primaires et de mettre les bons types dans la base de données.
 Il contient également les SQL pour la créations des tables et des views.
 
-* La **Base de Donnée Relationnelle**, réalisée sous DBeaver et hébergée sur Azure. 
+* La **Base de Donnée Relationnelle**, réalisée sous _DBeaver_ et hébergée sur _Azure_. 
 
   ![plot](https://github.com/coall132/Netfloox_Groupe1/blob/main/Base%20de%20Donn%C3%A9e%20Rel.PNG)https://github.com/coall132/Netfloox_Groupe1/blob/main/Base%20de%20Donn%C3%A9e%20Rel.PNG)
 
