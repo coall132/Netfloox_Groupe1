@@ -19,6 +19,11 @@ Il contient également les SQL pour la créations des tables et des views.
 * **Code Python** :
   * *prep_donne.py* nous permet avec l'input d'un film de ressortir 5 films les plus similaires. Il s'appuie sur le CSV cosine_features.csv qui contient l'ensemble des films et des features importantes.
   * On utilise le fichier *algo-reco.py* pour la recommandation d'un film.
+ 
+Ce code est une mise en œuvre d'un pipeline complet pour la construction et l'évaluation de modèles de régression utilisant différents algorithmes et techniques de prétraitement des données. Les différentes bibliothèques utilisées dans le code sont importées, y compris des outils de machine learning de scikit-learn, ainsi que pandas, numpy et psycopg2 pour la manipulation des données.
+Les données sont lues à partir d'un fichier CSV situé à l'URL spécifiée. En cas d'erreur de lecture, un message d'erreur est affiché. Les fonctions de nettoyage sont définies pour transformer les données textuelles dans certaines colonnes en listes, remplacer les valeurs manquantes par 'NA', et convertir certaines colonnes en types numériques. Ensuite, les données textuelles sont fusionnées en une seule chaîne pour chaque ligne. Un pipeline est créé  qui effectue le prétraitement des données, y compris l'imputation, la mise à l'échelle et l'encodage, puis applique un modèle d'apprentissage automatique donné. Différents ensembles de paramètres sont définis pour les différents modèles d'apprentissage automatique à évaluer. Chaque ensemble de paramètres spécifie les prétraitements et les hyperparamètres spécifiques au modèle. Les données sont divisées en ensembles d'entraînement et de test pour l'évaluation des modèles.
+
+Un modèle final est entraîné en utilisant le meilleur pipeline identifié par la recherche sur la grille avec les meilleurs hyperparamètres. Le modèle final est évalué sur l'ensemble de test à l'aide de différentes métriques telles que le coefficient de détermination (R²), l'erreur absolue moyenne (MAE) et l'erreur quadratique moyenne (MSE). Le modèle final est sauvegardé sous forme de fichier pickle pour une utilisation ultérieure.
 
 * **Streamlit** contient le code pour l'application.
 
