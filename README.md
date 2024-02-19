@@ -21,7 +21,6 @@ prep_donne.py nous permet avec l'input d'un film de ressortir 5 films les plus s
 
   ![plot](https://github.com/coall132/Netfloox_Groupe1/blob/main/Base%20de%20Donn%C3%A9e%20Rel.PNG)https://github.com/coall132/Netfloox_Groupe1/blob/main/Base%20de%20Donn%C3%A9e%20Rel.PNG)
 
-[Some title here](ProjetNetfloox.pdf)
+[La Présentation : ](ProjetNetfloox.pdf)
 
-https://github.com/coall132/Netfloox_Groupe1/blob/main/ProjetNetfloox.pdf
   
