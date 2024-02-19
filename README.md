@@ -1,9 +1,7 @@
 * **Trello** : 
 https://trello.com/b/c96tOI4O/buzzing-flash-netfloox
 
-* **La Présentation** :
-
-[La Présentation en pdf  : ](ProjetNetfloox.pdf)
+* **La Présentation** : [La Présentation en pdf  : ](ProjetNetfloox.pdf)
 
 * **Documentation** : 
 
