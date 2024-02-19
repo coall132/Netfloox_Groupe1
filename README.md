@@ -25,7 +25,7 @@ Les données sont lues à partir d'un fichier CSV situé à l'URL spécifiée. E
 
 Un modèle final est entraîné en utilisant le meilleur pipeline identifié par la recherche sur la grille avec les meilleurs hyperparamètres. Le modèle final est évalué sur l'ensemble de test à l'aide de différentes métriques telles que le coefficient de détermination (R²), l'erreur absolue moyenne (MAE) et l'erreur quadratique moyenne (MSE). Le modèle final est sauvegardé sous forme de fichier pickle pour une utilisation ultérieure.
 
-* **Streamlit** contient le code pour l'application.
+* **Streamlit_reco.py** contient le code pour l'application.
 
 
 
