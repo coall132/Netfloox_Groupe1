@@ -18,6 +18,7 @@ https://trello.com/b/c96tOI4O/buzzing-flash-netfloox
 * **Code Python** :
   * *prep_donne.py* nous permet avec l'input d'un film de ressortir 5 films les plus similaires. Il s'appuie sur le CSV cosine_features.csv qui contient l'ensemble des films et des features importantes.
   * *Graph.py* est le script pour la réalisation des graphiques sous python.
+Cette section lit des fichiers CSV contenant des données sur les films, et utilise _plotnine_ ou _matplotlib_ pour créer un scatter plot, box plot, pairplot, ou des camemberts représentant les informations du data set.
   * On utilise le fichier *algo-reco.py* pour la recommandation d'un film.
   
  
