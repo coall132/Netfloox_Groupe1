@@ -2,7 +2,7 @@
 """
 Created on Wed Feb 14 13:37:49 2024
 
-@author: kaeli
+@author: kaëlig
 """
 
 import psycopg2
