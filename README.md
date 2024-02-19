@@ -16,3 +16,5 @@ Streamlit contient le code pour l'application.
 prep_donne.py nous permet avec l'input d'un film de ressortir 5 films les plus similaires. Il s'appuie sur le CSV cosine_features.csv qui contient l'ensemble des films et des features importantes.
 
 - On utilise le fichier algo-reco.py pour la recommandation d'un film.
+
+  ![plot]([./directory_1/directory_2/.../directory_n/plot.png](https://github.com/coall132/Netfloox_Groupe1/blob/main/Base%20de%20Donn%C3%A9e%20Rel.PNG)https://github.com/coall132/Netfloox_Groupe1/blob/main/Base%20de%20Donn%C3%A9e%20Rel.PNG)
