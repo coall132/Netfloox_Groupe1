@@ -1,4 +1,4 @@
-* Trello : 
+* #Trello : 
 https://trello.com/b/c96tOI4O/buzzing-flash-netfloox
 
 * Documentation : 
@@ -20,3 +20,5 @@ prep_donne.py nous permet avec l'input d'un film de ressortir 5 films les plus s
 * La Base de Donnée Relationnelle, réalisée sous DBeaver et hébergée sur Azure. 
 
   ![plot](https://github.com/coall132/Netfloox_Groupe1/blob/main/Base%20de%20Donn%C3%A9e%20Rel.PNG)https://github.com/coall132/Netfloox_Groupe1/blob/main/Base%20de%20Donn%C3%A9e%20Rel.PNG)
+
+  
