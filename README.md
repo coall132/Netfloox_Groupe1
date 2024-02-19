@@ -15,7 +15,7 @@ Il contient également les SQL pour la créations des tables et des views.
 
 prep_donne.py nous permet avec l'input d'un film de ressortir 5 films les plus similaires. Il s'appuie sur le CSV cosine_features.csv qui contient l'ensemble des films et des features importantes.
 
-   * On utilise le fichier algo-reco.py pour la recommandation d'un film.
+     * On utilise le fichier algo-reco.py pour la recommandation d'un film.
 
 * La Base de Donnée Relationnelle, réalisée sous DBeaver et hébergée sur Azure. 
 
