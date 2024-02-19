@@ -3,11 +3,7 @@ https://trello.com/b/c96tOI4O/buzzing-flash-netfloox
 
 * **La Présentation** : [La Présentation en pdf  : ](ProjetNetfloox.pdf)
 
-* **Documentation** : 
-
-https://developer.imdb.com/non-commercial-datasets/
-et
-https://help.imdb.com/article/contribution/other-submission-guides/country-codes/G99K4LFRMSC37DCN# 
+* **Documentation** : https://developer.imdb.com/non-commercial-datasets/   et   https://help.imdb.com/article/contribution/other-submission-guides/country-codes/G99K4LFRMSC37DCN# 
 
 * **Codes** : 
    * SQL.ipynb permet de créer toutes les clés primaires et de mettre les bons types dans la base de données.
